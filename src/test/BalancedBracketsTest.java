@@ -30,7 +30,7 @@ public class BalancedBracketsTest {
     @Test
     public void bracketsInsidePhraseReturnsTrue() {
 
-        assertTrue(BalancedBrackets.hasBalancedBrackets("[]LaunchCode"));
+        assertTrue(BalancedBrackets.hasBalancedBrackets("Launch[]Code"));
     }
 
     @Test
